@@ -44,9 +44,9 @@ const Dashboard = () => {
             </AbsoluteCenter>
             
         </Box>
-        <Box position={"relative"} w={"100%"} p="3%" py={"20%"}>
+        <Box position={"relative"} w={"100%"} p="3%" py={"20%"} bg={"white"}>
             <AbsoluteCenter top={1} w="93%">
-                <Card display={"flex"} bg={""}>
+                <Card display={"flex"} bg={"white"}>
                     <Box display={"flex"} alignItems={"center"}>
                         <CardHeader p={2} pl={5}>
                             <Image src="image.png" w={10}/>
@@ -95,8 +95,8 @@ const Dashboard = () => {
 
             <Stack p={3} m="-1" mt={2} overflow={"hidden"} borderRadius={"md"}>
                 <Flex alignItems={"center"} justify={"space-between"} px={2}>
-                    <Text fontFamily={"cursive"} fontSize={"lg"} letterSpacing={"-0.05em"} mb={2}>Lainnya</Text>
-                    <FaAnglesDown />
+                    <Text fontFamily={"cursive"} fontSize={"lg"} letterSpacing={"-0.05em"} mb={2} color={"black"}>Lainnya</Text>
+                    <FaAnglesDown color="black"/>
                 </Flex>
                 <Flex align={"center"} justify={"space-evenly"}
                 gap={2} flexWrap={"wrap"}>
