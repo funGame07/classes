@@ -2,6 +2,7 @@
   "name": "class",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://fungame07.github.io/classes",
   "type": "module",
   "scripts": {
     "dev": "vite",

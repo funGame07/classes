@@ -4,21 +4,19 @@ import Dashboard from "./Dashboard"
 
 function App() {
   return(
-
-    <Dashboard />
-    // <BrowserRouter>
-    //   <Routes>
-    //     <Route path="/class/landingpage" element={<LandingPage/>} />
-    //     <Route path="/class/dashboard" element={<Dashboard/>} />
-    //     {/* <Route path="/secretary" element="" />
-    //     <Route path="/treasurer" element="" />
-    //     <Route path="/violation" element="" />
-    //     <Route path="/cleanliness" element="" />
-    //     <Route path="/schedule" element="" />
-    //     <Route path="/organization" element="" />
-    //     <Route path="/teachers" element="" /> */}
-    //   </Routes>
-    // </BrowserRouter>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/landingpage" element={<LandingPage/>} />
+        <Route path="/dashboard" element={<Dashboard/>} />
+        {/* <Route path="/secretary" element="" />
+        <Route path="/treasurer" element="" />
+        <Route path="/violation" element="" />
+        <Route path="/cleanliness" element="" />
+        <Route path="/schedule" element="" />
+        <Route path="/organization" element="" />
+        <Route path="/teachers" element="" /> */}
+      </Routes>
+    </BrowserRouter>
   )
 }
 
