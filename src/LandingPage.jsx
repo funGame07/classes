@@ -1,7 +1,7 @@
 import { AspectRatio, Image, AbsoluteCenter, Box, Text, Progress} from "@chakra-ui/react"
 
 const LandingPage = () => {
-    setTimeout(() => location.assign("/dashboard"), 2000)
+    setTimeout(() => location.assign("class/dashboard"), 2000)
   return (
     <Box minW={"100vw"} h={"100vh"} position={"relative"}>
         <AbsoluteCenter top="40%">
