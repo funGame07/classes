@@ -11,7 +11,7 @@ import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
 const Dashboard = () => {
     const [images, setImages] = useState("pc1.png")
     const [imgIndex, setImgIndex] = useState(0)
-    const allImages = ["/pc1.png", "/pc2.png", "/pc3.png", "/pc4.png", "/pc5.png", "/pc6.png", "/pc7.png"]
+    const allImages = ["pc1.png", "pc2.png", "pc3.png", "pc4.png", "pc5.png", "pc6.png", "pc7.png"]
 
     useEffect(() =>{
         const myId = setInterval(() => {
