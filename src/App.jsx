@@ -6,9 +6,9 @@ function App() {
   return(
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<a href="/landingpage">click me to continue</a>}/>
-        <Route path="/landingpage" element={<LandingPage/>} />
-        <Route path="/dashboard" element={<Dashboard/>} />
+        <Route path="/class" element={<a href="/landingpage">click me to continue</a>}/>
+        <Route path="/class/landingpage" element={<LandingPage/>} />
+        <Route path="/class/dashboard" element={<Dashboard/>} />
         {/* <Route path="/secretary" element="" />
         <Route path="/treasurer" element="" />
         <Route path="/violation" element="" />
